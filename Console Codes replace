@@ -1,0 +1,13 @@
+string[] sentences = new string[4];
+
+            Console.Write("Enter your first sentence :");
+
+            sentences[0] = Console.ReadLine();
+
+            Console.Write("Enter your second sentence: ");
+
+            sentences[1] = Console.ReadLine();
+            
+            sentences[2] = sentences[0] + sentences[1];
+
+            Console.Write(sentences[2].Replace('a', 'e'));
